@@ -1,0 +1,6 @@
+_agents/*/config.md
+_agents/*/tools/*.json
+_agents/*/tools/youtube_account.json
+_cache/
+_tmp/
+*.log
