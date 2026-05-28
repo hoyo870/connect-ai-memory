@@ -1,1 +1,10 @@
-{}
+{
+  "ceo": "google/gemma-4-e2b",
+  "secretary": "google/gemma-4-e4b",
+  "analyst": "google/gemma-4-e4b",
+  "seungyong": "google/gemma-4-e4b",
+  "kyunghun": "google/gemma-4-e4b",
+  "riskmanager": "google/gemma-4-e4b",
+  "jinhwan": "google/gemma-4-e4b",
+  "kyungtae": "google/gemma-4-e4b"
+}
