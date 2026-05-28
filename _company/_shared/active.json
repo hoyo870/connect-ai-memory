@@ -1,37 +1,13 @@
 {
   "_migrated": true,
   "_migrated_v2": true,
-  "secretary": {
-    "activatedAt": "2026-05-26T16:28:34.273Z",
-    "seeded": true
-  },
-  "youtube": {
-    "activatedAt": "2026-05-26T16:28:34.273Z",
-    "seeded": true
-  },
-  "writer": {
-    "activatedAt": "2026-05-26T16:28:34.273Z",
-    "seeded": true
-  },
-  "designer": {
-    "activatedAt": "2026-05-26T16:28:34.273Z",
-    "seeded": true
-  },
-  "instagram": {
-    "activatedAt": "2026-05-26T16:28:34.273Z",
-    "seeded": true
-  },
-  "business": {
-    "activatedAt": "2026-05-26T16:28:34.273Z",
-    "seeded": true
-  },
-  "developer": {
-    "activatedAt": "2026-05-26T16:28:34.273Z",
-    "seeded": true
-  },
-  "researcher": {
-    "activatedAt": "2026-05-26T16:28:34.273Z",
-    "seeded": true
-  },
-  "_migrated_v3": true
+  "_migrated_v3": true,
+  "secretary": { "activatedAt": "2026-05-28T00:00:00.000Z", "seeded": true },
+  "jinhwan":   { "activatedAt": "2026-05-28T00:00:00.000Z", "seeded": true },
+  "kyungtae":  { "activatedAt": "2026-05-28T00:00:00.000Z", "seeded": true },
+  "seungyong": { "activatedAt": "2026-05-28T00:00:00.000Z", "seeded": true },
+  "kyunghun":  { "activatedAt": "2026-05-28T00:00:00.000Z", "seeded": true },
+  "analyst":   { "activatedAt": "2026-05-28T00:00:00.000Z", "seeded": true },
+  "riskmanager":{ "activatedAt": "2026-05-28T00:00:00.000Z", "seeded": true },
+  "developer": { "activatedAt": "2026-05-28T00:00:00.000Z", "seeded": true }
 }
