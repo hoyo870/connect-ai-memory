@@ -815,6 +815,57 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-05-30T02-50/_report.md\n- 코다리: 코다리(Developer)는 이전 작업에서 설계한 스트레스 테스트 케이스(TC-01~TC-05)를 RiskCalculationEngine.py에\n- 애널리스트: 애널리스트는 코다리가 생성한 스트레스 테스트 로그를 분석하여, Stress Test Case Matrix의 각 항목별 위반 조건 만족 여부를 시\n- 리스크 매니저: 리스크매니저는 애널리스트의 분석을 바탕으로 시스템 운영 허가를 위한 최종 'Sign-off Checklist'를 확정하고, 개발 및 분석 결과를\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 코다리(Developer)는 이전 작업에서 설계한 스트레스 테스트 케이스(TC-01~TC-05)를 RiskCalculationEngine.py에 통합하여 실제 단위 테스트를 실행하고, 모든 결과 로그를 생성해야 합니다.\n> 🔧 **도구 실행",
       "completedAt": "2026-05-30T02:56:45.080Z"
+    },
+    {
+      "id": "20260530141051-j17i",
+      "title": "모든 에이전트의 역할 및 한계점(Scope Limit) 명확화 완료.",
+      "description": "자동 등록 (리스크 매니저 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "riskmanager"
+      ],
+      "createdAt": "2026-05-30T14:10:51.516Z",
+      "status": "done",
+      "sessionDir": "2026-05-30T14-05",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-30T14-05/_report.md\n- 코다리: 리스크매니저와 애널리스트가 정의한 Gatekeeper Criteria V3.0 및 시스템 강건성 요구사항에 따라, SafeModeManager \n- 리스크 매니저: 개발팀이 구현한 최신 SafeModeManager 코드가 Gatekeeper Criteria V3.0의 수학적 임계값과 $R_{total}$ 계\n- 애널리스트: 시장 실패 시나리오(데이터 지연/극단 변동성) 테스트 결과와 실제 API 연동 데이터 스트림 간의 일치도를 분석하여, 시스템 강건성 검증 보고서\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 리스크매니저와 애널리스트가 정의한 Gatekeeper Criteria V3.0 및 시스템 강건성 요구사항에 따라, SafeModeManager 모듈 내의 동적 가중치 계산 로직과 자동 안전 모드 진입/포지션 축소 코드를 최종 통합하고, 모든 ",
+      "completedAt": "2026-05-30T14:13:18.183Z"
+    },
+    {
+      "id": "20260530141051-fm9v",
+      "title": "Level 3 및 Level 4에 대한 **수동 개입 매뉴얼** 작성 완료 (영숙).",
+      "description": "자동 등록 (리스크 매니저 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "riskmanager"
+      ],
+      "createdAt": "2026-05-30T14:10:51.518Z",
+      "status": "done",
+      "sessionDir": "2026-05-30T14-05",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-30T14-05/_report.md\n- 코다리: 리스크매니저와 애널리스트가 정의한 Gatekeeper Criteria V3.0 및 시스템 강건성 요구사항에 따라, SafeModeManager \n- 리스크 매니저: 개발팀이 구현한 최신 SafeModeManager 코드가 Gatekeeper Criteria V3.0의 수학적 임계값과 $R_{total}$ 계\n- 애널리스트: 시장 실패 시나리오(데이터 지연/극단 변동성) 테스트 결과와 실제 API 연동 데이터 스트림 간의 일치도를 분석하여, 시스템 강건성 검증 보고서\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 리스크매니저와 애널리스트가 정의한 Gatekeeper Criteria V3.0 및 시스템 강건성 요구사항에 따라, SafeModeManager 모듈 내의 동적 가중치 계산 로직과 자동 안전 모드 진입/포지션 축소 코드를 최종 통합하고, 모든 ",
+      "completedAt": "2026-05-30T14:13:18.185Z"
+    },
+    {
+      "id": "20260530141051-o1l8",
+      "title": "비상 종료 프로토콜(`emergency_config`) 스키마 확정 및 코드 반영 확인 (코다리/리스크 매니저).",
+      "description": "자동 등록 (리스크 매니저 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "riskmanager"
+      ],
+      "createdAt": "2026-05-30T14:10:51.520Z",
+      "status": "done",
+      "sessionDir": "2026-05-30T14-05",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-30T14-05/_report.md\n- 코다리: 리스크매니저와 애널리스트가 정의한 Gatekeeper Criteria V3.0 및 시스템 강건성 요구사항에 따라, SafeModeManager \n- 리스크 매니저: 개발팀이 구현한 최신 SafeModeManager 코드가 Gatekeeper Criteria V3.0의 수학적 임계값과 $R_{total}$ 계\n- 애널리스트: 시장 실패 시나리오(데이터 지연/극단 변동성) 테스트 결과와 실제 API 연동 데이터 스트림 간의 일치도를 분석하여, 시스템 강건성 검증 보고서\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 리스크매니저와 애널리스트가 정의한 Gatekeeper Criteria V3.0 및 시스템 강건성 요구사항에 따라, SafeModeManager 모듈 내의 동적 가중치 계산 로직과 자동 안전 모드 진입/포지션 축소 코드를 최종 통합하고, 모든 ",
+      "completedAt": "2026-05-30T14:13:18.187Z"
     }
   ]
 }
